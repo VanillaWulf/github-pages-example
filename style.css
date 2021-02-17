@@ -1,0 +1,93 @@
+.reset-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    padding: 10px 50px;
+}
+
+.title {
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.sub-title {
+    margin: 0 0 10px;
+}
+
+.menu-list {
+    background-color: azure;
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item-link,
+.contacts-link {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-item-link:hover,
+.menu-item-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+    color: red;
+}
+
+.menu-item-link:active,
+.contacts-link:active {
+    opacity: 0.8;
+}
+
+.about {
+    background-color: blanchedalmond;
+}
+
+.projects {
+    background-color: cornsilk;
+}
+
+.projects-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-item {
+    width: 40%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.projects-item-link {
+    width: 150px;
+    min-height: 30px;
+    color: white;
+    background-color: darkcyan;
+    display: block;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-item-link:hover,
+.projects-item-link:focus {
+    opacity: 0.7;
+}
+
+.contacts {
+    background-color: beige;
+}
+
+.contacts-list {
+    display: flex;
+}
+
+.contacts-item {
+    margin-right: 30px;
+}
